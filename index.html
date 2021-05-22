@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration form</title>
+<body>
+
+<form>
+  <head> 
+<title>
+Registration Form
+</title>
+<style>
+fieldset {
+  background-color: #eeeeee;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+
+</style>
+
+</head>
+<body bgcolor="lightgreen">
+<center>
+    <img width="400" height="220" src="E:\TY\Sem2\WTCC\ass2 form\img.JPG" alt="centered image" />
+  </center>
+
+<h1 align="center">REGISTRATION FORM</h1>
+<br>
+<br>
+<form action="/action.asp" target="_blank" method="get">
+
+
+<fieldset >
+<legend>Personal::</legend>
+  
+    <img align="right" width="350" height="320" src="E:\TY\Sem2\WTCC\ass2 form\student.JPG" alt="centered image" />
+  
+<label> Firstname ::</label>       
+<input type="text" name="firstname" size="15"/ > <br> <br>
+
+<label> Lastname:: </label>       
+<input type="text" name="lastname" size="15"/> <br> <br>
+
+
+
+
+<label> Email Address:: </label>       
+<input type="text" name="email_id" size="15"/> <br> <br>
+
+<label for="birthday">DOB::</label>
+  <input type="date" id="birthday" name="birthday">
+
+
+<br><br><label> Age ::</label>       
+<input type="text" name="age" size="2"/> <br> <br>
+
+
+
+<label> 
+Phone ::
+</label>
+<input type="text" name="country code"  value="+91" size="2"/> 
+<input type="text" name="phone" size="10"/> <br> <br>
+
+
+
+<label> 
+Gender ::
+</label> 
+<select>
+<option value="Course">Male</option>
+<option value="BCA">Female</option>
+
+
+</select><br><br>
+</fieldset><br>
+<fieldset>
+<legend>Educational::</legend>
+<img align="right" width="500" height="320" src="E:\TY\Sem2\WTCC\ass2 form\book.JPG" alt="centered image" />
+<label>Year of study::</label>
+         <input type = "radio" name = "Year" value = "FY"> First Year
+         <input type = "radio" name = "Year" value = "SY"> Second Year
+		 <input type = "radio" name = "year" value = "TY"> Third Year
+		 <input type = "radio" name = "year" value = "Final year"> Final year<br><br>
+
+<label > 
+Branch :
+</label> <br>
+<select size="5">
+<option value="Course">COMP</option>
+<option value="BCA">IT</option>
+<option value="BBA">INSTRU</option>
+<option value="B.Tech">ELEX</option>
+<option value="MBA">MECHANICAL</option>
+<option value="MCA">CHEMICAL</option>
+
+</select><br><br>
+
+<label>Subjects::
+</label><br>
+<input type="checkbox" id="subject1" name="sname1" value="oops">OOPS
+<input type="checkbox" id="subject2" name="sname2" value="WTCC">WTCC
+<input type="checkbox" id="subject3" name="sname3" value="SDM">SDM
+<input type="checkbox" id="subject4" name="sname4" value="IOT">IOT
+<input type="checkbox" id="subject5" name="sname5" value="DBMS">DBMS
+<input type="checkbox" id="subject6" name="sname6" value="CN">CN
+<br><br>
+
+<label>Hobbies</label><br>
+<textarea name="message" rows="5" cols="100">
+
+</textarea><br><br>
+</fieldset><br>
+
+
+<label>Upload your passport image::</label>
+<input type = "file" name = "fileupload" accept = "image/*" /> <br><br>
+
+
+<input type="submit" name="submit" value="Submit">
+<input type="reset" name="reset" value="Reset">
+<input type="button" onclick="alert('Form Submitted')" value="OK">
+<input type="button" onclick="alert('Form NOT Submitted')" value="Cancel">
+
+
+
+
+<br>
+<br>
+
+
+
+
+		 
+         
