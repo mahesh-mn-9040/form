@@ -1,0 +1,40 @@
+    body {background-color: powderblue;}
+
+     h1  {color: Indigo;
+	      font-size:50px; 
+		  text-decoration:line-through;
+		  position: absolute;
+		  left: 600px;
+		  top: 50px;
+		  width: 300px;}
+	 
+     td {border : 5px solid Indigo;}
+	 
+     td.a {
+        color: blue;
+		border : 2px solid green;
+		font-size:25px;
+          }
+	  
+	 td.b {
+        color: blue;
+		border : 2px solid green;
+		font-size:25px;
+		text-indent:100px;
+          }
+	  
+	 table {
+	       border : 20px solid green;
+	       border-style: dotted;
+		   position: absolute;
+		   left:300px;
+		   top: 250px
+		   }
+	  
+	  
+	  img  {
+	            position: absolute;
+	            left: 400px; 
+	            top: 0px;
+	            z-index: -1;
+	        }

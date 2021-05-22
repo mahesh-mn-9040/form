@@ -1,0 +1,53 @@
+h1{
+color:yellow;
+}
+body{
+background-color:red;
+}
+h1{
+color:white;
+background:cyan;
+}
+body {
+background-image: url("vit.png");
+background-repeat:no-repeat;
+background-size:cover;
+}
+img{
+border:groove 8px blue;
+}
+
+
+a[href]{
+color:white;
+background:DarkSlateBlue;
+}
+a[href="http://facebook.com"]{
+color:white;
+background:cyan;
+}
+a[href="http://linkedin.com"]{
+color:white;
+background:cyan;
+}
+p{
+background:LightSeaGreen;
+}
+li {
+color:teal;
+}
+h1{
+font-family:Cursive;
+}
+h1{
+text-align:center;
+}
+
+p{
+text-decoration:underline;
+}
+li:nth-of-type(2){
+color:blue;
+}
+
+
